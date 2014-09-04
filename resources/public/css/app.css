@@ -1,0 +1,71 @@
+/*
+Error: Undefined variable: "$large-screen".
+        on line 18 of app.scss
+
+13:   $centered-navigation-height: 60px;
+14:   $centered-navigation-item-padding: 1em;
+15:   $centered-navigation-submenu-padding: 1em;
+16:   $centered-navigation-submenu-width: 12em;
+17:   $centered-navigation-item-nudge: 2.2em;
+18:   $horizontal-bar-mode: $large-screen;
+19: 
+20:   background-color: $centered-navigation-background;
+21:   border-bottom: 1px solid darken($centered-navigation-background, 6);
+22:   font-family: $serif;
+23:   height: $centered-navigation-height;
+
+Backtrace:
+app.scss:18
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:452:in `visit_variable'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:79:in `block in with_base'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:115:in `with_frame'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:79:in `with_base'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:414:in `block (2 levels) in visit_rule'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:414:in `map'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:414:in `block in visit_rule'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:412:in `visit_rule'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:79:in `block in with_base'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:115:in `with_frame'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:79:in `with_base'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:151:in `visit'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/plugin.rb:108:in `method_missing'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/exec/sass_scss.rb:349:in `watch_or_update'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/exec/base.rb:40:in `parse'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/lib/sass/exec/base.rb:19:in `parse!'
+/Users/mark/.gem/ruby/2.1.1/gems/sass-3.4.1/bin/sass:13:in `<top (required)>'
+/Users/mark/.gem/ruby/2.1.1/bin/sass:23:in `load'
+/Users/mark/.gem/ruby/2.1.1/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$large-screen\".\A         on line 18 of app.scss\A \A 13:   $centered-navigation-height: 60px;\A 14:   $centered-navigation-item-padding: 1em;\A 15:   $centered-navigation-submenu-padding: 1em;\A 16:   $centered-navigation-submenu-width: 12em;\A 17:   $centered-navigation-item-nudge: 2.2em;\A 18:   $horizontal-bar-mode: $large-screen;\A 19: \A 20:   background-color: $centered-navigation-background;\A 21:   border-bottom: 1px solid darken($centered-navigation-background, 6);\A 22:   font-family: $serif;\A 23:   height: $centered-navigation-height;"; }
